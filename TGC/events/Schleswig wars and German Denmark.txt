@@ -1,0 +1,51 @@
+
+##First Schleswig war beginning##
+
+country_event = {
+	id = 190000000
+	title = "EVTNAME190000000"
+	desc = "EVTDESC190000000"
+	picture = "prussian_constitution"
+
+	trigger = {
+			tag = HOL
+			PRU = exists
+ 	OR = {	has_country_modifier = springtime_of_nations
+					average_militancy = 7
+					}
+
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = { months = 3 }
+
+	option = {
+		name = "EVTOPTA190000000"
+		political_reform = wealth_weighted_voting
+		political_reform = free_press
+		political_reform = yes_meeting
+		political_reform = no_trade_unions
+		political_reform = mandatory_service
+		social_reform = trinket_health_care
+		any_pop = { militancy = -4 }
+    inherit = LAU
+		inherit = SCH
+		change_tag = SWH
+		DEN = {
+			country_event = {
+				  190000001 days = 5
+			}
+		}
+		ai_chance = { factor = 100 }
+		}
+
+
+	}
+
+
+	country_event = {
+		id = 190000001
+		title = "EVTNAME190000000"
+		desc = "EVTDESC190000000"
+		picture = "prussian_constitution"
