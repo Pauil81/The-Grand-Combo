@@ -233,7 +233,7 @@ vassal = {
 	start_date = 1773.1.1
 	end_date = 1864.10.30
 }
-vassal = {
+substate = {
 	first = DEN
 	second = SCH
 	start_date = 1773.1.1
