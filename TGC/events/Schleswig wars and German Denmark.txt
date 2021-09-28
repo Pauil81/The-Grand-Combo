@@ -28,7 +28,7 @@ country_event = {
 		political_reform = no_trade_unions
 		political_reform = mandatory_service
 		social_reform = trinket_health_care
-		any_pop = { militancy = -4 }
+		any_pop = { militancy = -8 }
     inherit = LAU
 		inherit = SCH
 		change_tag = SWH
@@ -56,3 +56,59 @@ country_event = {
 
 		option = {
 			name = "EVTOPTA190000001"
+			PRU = {
+				country_event = {
+					id = 190000004 days = 1
+				}
+			}
+			}
+			option = {
+				name = "EVTOPTA190000001"
+				HOL = {
+					country_event = {
+						id = 190000002 days = 1
+					}
+				}
+				PRU = {
+					country_event = {
+						id = 190000003 days = 2
+							}
+						}
+						prestige = -100
+					}
+				}
+
+## Denmark chooses not to contest Holstein ##
+
+				country_event = {
+					id = 190000002
+					title = "EVTNAME190000002"
+					desc = "EVTDESC190000002"
+					picture = "prussian_constitution"
+
+					is_triggered_only = yes
+
+					option = {
+						name = "EVTOPTA190000002"
+						DEN = { release_vassal = SWH }
+						set_country_flag = TODO
+						set_global_flag = german_schleswig
+						prestige = 10
+						}
+						}
+
+## Prussia is informed and spheres Schleswig-Holstein ##
+
+country_event = {
+	id = 190000003
+	title = "EVTNAME190000002"
+	desc = "EVTDESC190000002"
+	picture = "prussian_constitution"
+
+	is_triggered_only = yes
+
+	diplomatic_influence = {
+			who = SWH
+			value = 400
+			}
+			}
