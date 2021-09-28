@@ -347,7 +347,15 @@ war_reparations;Reparations;;;;;;;;;;;;;x
 war_reparations_desc;Demand §Yreparations§W from $RECIPIENT$.;;;;;;;;;;;;;x
 war_reparations_setup;Demand §Yreparations§W from $RECIPIENT$.;;;;;;;;;;;;;x
 war_reparations_short;Demand Reparations;;;;;;;;;;;;;x
-hungarian_game_escalation1;Carve up Hungary
-hungarian_game_escalation1_desc;Liberate the Germans stranded in Hungary!
-hungarian_game_escalation1_setup;Liberate the Germans stranded in Hungary!
-hungarian_game_escalation1_short;Liberate the Germans stranded in Hungary!
+hungarian_game_escalation1;Carve up Hungary;;;;;;;;;;;;;x
+hungarian_game_escalation1_desc;Liberate the Germans stranded in Hungary!;;;;;;;;;;;;;x
+hungarian_game_escalation1_setup;Liberate the Germans stranded in Hungary!;;;;;;;;;;;;;x
+hungarian_game_escalation1_short;Liberate the Germans stranded in Hungary!;;;;;;;;;;;;;x
+first_schleswig_war_pru;Liberate Schleswig-Holstein;;;;;;;;;;;;;x
+first_schleswig_war_pru_desc;We need to assist the Schleswig-Holsteinischen revolutionarys;;;;;;;;;;;;;x
+first_schleswig_war_pru_setup;We need to assist the Schleswig-Holsteinischen revolutionarys;;;;;;;;;;;;;x
+first_schleswig_war_pru_short;We need to assist the Schleswig-Holsteinischen revolutionarys;;;;;;;;;;;;;x
+first_schleswig_war_den;Pacify Schleswig-Holstein;;;;;;;;;;;;;x
+first_schleswig_war_den_desc;We need to defeat the Schleswig-Holsteinischen revolutionarys;;;;;;;;;;;;;x
+first_schleswig_war_den_setup;We need to defeat the Schleswig-Holsteinischen revolutionarys;;;;;;;;;;;;;x
+first_schleswig_war_den_short;We need to defeat the Schleswig-Holsteinischen revolutionarys;;;;;;;;;;;;;x
